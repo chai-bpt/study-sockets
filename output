@@ -5,13 +5,56 @@ chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ ./server
 	binding created successfully
 
 	listening started successfully
+
+	client connected successfully
+
+	client's port no = 55854
+
+	client connected successfully
+
+	client's port no = 55856
+
+	client connected successfully
+
+	client's port no = 55858
+
+	client connected successfully
+
+	client's port no = 55860
+
+	client connected successfully
+
+	client's port no = 55862
 ^C
-chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ git status
+chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ 
 
 
-chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ ./server 
+
+
+chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ ./client 
 
 	socket created successfully
-bind:: Address already in use
+
+	connection with server established successfully
+chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ ./client 
+
+	socket created successfully
+
+	connection with server established successfully
+chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ ./client 
+
+	socket created successfully
+
+	connection with server established successfully
+chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ ./client 
+
+	socket created successfully
+
+	connection with server established successfully
+chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ ./client 
+
+	socket created successfully
+
+	connection with server established successfully
 chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ 
 

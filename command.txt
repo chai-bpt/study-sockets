@@ -1,1 +1,2 @@
 gcc testServer.c -o server
+gcc testClinet.c -o client
