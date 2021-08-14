@@ -1,0 +1,17 @@
+chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ ./server 
+
+	socket created successfully
+
+	binding created successfully
+
+	listening started successfully
+^C
+chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ git status
+
+
+chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ ./server 
+
+	socket created successfully
+bind:: Address already in use
+chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ 
+

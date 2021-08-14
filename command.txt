@@ -1,0 +1,1 @@
+gcc testServer.c -o server
