@@ -8,53 +8,57 @@ chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ ./server
 
 	client connected successfully
 
-	client's port no = 55854
+	client's port no = 56572
+
+	Received data from client is :: hi how are you?
+
+
+	Enter data to be sent to server::
+fine, thank you!
+
+	write to client successfully
 
 	client connected successfully
 
-	client's port no = 55856
+	client's port no = 56580
 
-	client connected successfully
+	Received data from client is :: go to hell
 
-	client's port no = 55858
 
-	client connected successfully
+	Enter data to be sent to server::
+why
 
-	client's port no = 55860
-
-	client connected successfully
-
-	client's port no = 55862
+	write to client successfully
 ^C
 chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ 
 
+chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ ./client 
 
+	socket created successfully
 
+	connection with server established successfully
+
+	Enter data to be sent to server::
+hi how are you?
+
+	write to server successfully
+
+	Data received from Server:: fine, thank you!
 
 chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ ./client 
 
 	socket created successfully
 
 	connection with server established successfully
-chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ ./client 
 
-	socket created successfully
+	Enter data to be sent to server::
+go to hell
 
-	connection with server established successfully
-chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ ./client 
+	write to server successfully
 
-	socket created successfully
+	Data received from Server:: why
 
-	connection with server established successfully
-chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ ./client 
-
-	socket created successfully
-
-	connection with server established successfully
-chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ ./client 
-
-	socket created successfully
-
-	connection with server established successfully
 chaitanya@chaitanya-HP-Laptop-14-bs0xx:~/work/linking/study-sockets$ 
+
+
 

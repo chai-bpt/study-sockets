@@ -42,5 +42,18 @@ int main()
 		exit(1);
 	}
 	printf("\n\tconnection with server established successfully\n");
+	
+	char buf[200] = {0};
+	printf("\n\tEnter data to be sent to server::\n");
+	fgets(buf, 200, stdin);
 
+	write(socketfd, buf, 200);
+	printf("\n\twrite to server successfully\n");
+
+	int n = 0;
+	n = read(socketfd, buf, 200);
+	buf[n] = '\0';
+	printf("\n\tData received from Server:: %s\n",buf);
+
+	close(socketfd);
 }

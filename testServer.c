@@ -63,5 +63,23 @@ int main()
 		}
 		printf("\n\tclient connected successfully\n");
 		printf("\n\tclient's port no = %d\n", ntohs(clientaddr.sin_port));
+
+		char buf[200] = {0};
+		int n = 0;
+
+		//read on the fd returned by accept 
+		//hence we endup reading to client in below call
+		n = read(NewConnectedfd, buf, 200);
+		buf[n] = '\0';
+		printf("\n\tReceived data from client is :: %s\n", buf);
+
+		char writebuf[200] = {0};
+	        printf("\n\tEnter data to be sent to server::\n");
+        	fgets(writebuf, 200, stdin);
+
+        	write(NewConnectedfd, writebuf, 200);
+        	printf("\n\twrite to client successfully\n");
+
+
 	}
 }
